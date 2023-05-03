@@ -136,6 +136,7 @@ main a {
     color: var(--cor6);
     background-color: var(--cor4);
     transition: .3s;
+    font-family: var(--fonte-destaque);
 }
 
 main a:hover {
