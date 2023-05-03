@@ -27,10 +27,11 @@
     --cor4:#2fa966;
     --cor5:#1a5c37;
     --cor6:#063d1e;
+    --cor7: white;
 
     --fonte-padrão: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Bebas Neue', 'cursive';
-    --fonte-android: 'Android', 'cursive';
+    --fonte-android: 'Android';
 }
 a.externo::after {
     content: '\1F517';
@@ -47,7 +48,7 @@ header{
 }
 header > h1 {
    
-    font-family: var(--fonte-android);
+    font-family: 'Android';
     font-size: 36px;
     font-weight: normal;
     margin-bottom: 25px;
@@ -70,12 +71,13 @@ nav > a {
     color: white;
     text-decoration: none;
     padding: 10px;
+    transition: .3s;
     
     
 }
 nav > a:hover{
     background-color: var(--cor3);
-    color: var(--cor5);
+    color: var(--cor7);
     font-weight: bold;
     border-radius: 5px;
     
@@ -133,11 +135,13 @@ main a {
     text-decoration: none;
     color: var(--cor6);
     background-color: var(--cor4);
+    transition: .3s;
 }
 
 main a:hover {
     text-decoration: underline;
-    color: var(--cor4);
+    color: var(--cor5);
+    
 }
 div.video {
     background-color: var(--cor6);
@@ -178,9 +182,16 @@ aside ul {
 }
 
 footer{
-    margin: 10px 0px 0px 0px;
+    margin: 10px 0px 40px 0px;
     text-align: center;
+    
 }
-footer strong{
+footer a{
     color: var(--cor4);
+    text-decoration: none;
+    transition: .3s;
+}
+footer a:hover{
+    background-color: var(--cor5);
+    color:var(--cor7);
 }
