@@ -106,7 +106,7 @@ main img.pequena{
 
 main h1 {
     color: var(--cor6);
-    font-family: var(--fonte-android);
+    font-family: 'Android';
     font-weight: normal;
 }
 
